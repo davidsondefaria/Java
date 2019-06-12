@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="painelEstrela" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="painelEstrela" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="painelEstrela">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="d0" green="d0" red="d0" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="Estrela">
+              <Font PropertyName="font" name="Ubuntu" size="18" style="0"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lbIdade12" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbKp" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbFluxo" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbManchas" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lbEmc" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="tfEmc" alignment="0" pref="710" max="32767" attributes="0"/>
+                              <Component id="tfManchas" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tfFluxo" alignment="0" max="32767" attributes="0"/>
+                              <Component id="tfKp" max="32767" attributes="0"/>
+                              <Component id="tfTpRotacao" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbNome10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                          <Component id="tfNome" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbIdade10" min="-2" pref="55" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="127" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="tfIdade" max="32767" attributes="0"/>
+                              <Component id="tfTpTrans" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbAcGrav10" min="-2" pref="139" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                          <Component id="tfAcelGrav" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbDiametro10" min="-2" pref="82" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
+                          <Component id="tfDiametro" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbVolume10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                          <Component id="tfVolume" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbVelocidade10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                          <Component id="tfVelocidade" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbTemperatura10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="86" max="-2" attributes="0"/>
+                          <Component id="tfTemperatura" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbMassa10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                          <Component id="tfMassa" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbGalaxia10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="129" max="-2" attributes="0"/>
+                          <Component id="tfGalaxia" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="lbEspLuz10" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                          <Component id="tfEdL" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lbIdade11" min="-2" pref="153" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jbConfirmar" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jbVoltar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jbVoltar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jbConfirmar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbNome10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfNome" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbEspLuz10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfEdL" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbGalaxia10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfGalaxia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbMassa10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfMassa" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbTemperatura10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfTemperatura" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbVelocidade10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfVelocidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbVolume10" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="tfVolume" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbDiametro10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfDiametro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbAcGrav10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfAcelGrav" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbIdade10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfIdade" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbIdade11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfTpTrans" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbIdade12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfTpRotacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbKp" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfKp" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbFluxo" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfFluxo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbManchas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfManchas" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbEmc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tfEmc" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lbNome10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Nome:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbEspLuz10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Espectro de luz:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbGalaxia10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Galaxia:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbMassa10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" Massa:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbTemperatura10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Temperatura:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVelocidade10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Velocidade:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbVolume10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Volume:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbDiametro10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Di&#xe2;metro:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbAcGrav10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Acel da Gravidade:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIdade10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Idade:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfEdL">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfGalaxia">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfNome">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfMassa">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfTemperatura">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfVolume">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfVelocidade">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfDiametro">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfAcelGrav">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfIdade">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIdade11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tempo de Transla&#xe7;&#xe3;o:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfTpTrans">
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbIdade12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tempo de Rota&#xe7;&#xe3;o:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfTpRotacao">
+        </Component>
+        <Component class="javax.swing.JButton" name="jbVoltar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Voltar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbVoltarActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbKp">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Kp:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbFluxo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Fluxo:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbManchas">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Manchas:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbEmc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Emc:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfEmc">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfManchas">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfFluxo">
+        </Component>
+        <Component class="javax.swing.JTextField" name="tfKp">
+        </Component>
+        <Component class="javax.swing.JButton" name="jbConfirmar">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Confirmar"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jbConfirmarActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
